@@ -1,4 +1,3 @@
-import { cleanUpVSCodeSettings, cleanUpVSIconsSettings } from './cleanUp';
+import { uninstall } from './index';
 
-cleanUpVSIconsSettings();
-cleanUpVSCodeSettings();
+uninstall();
